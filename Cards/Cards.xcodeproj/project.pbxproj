@@ -21,6 +21,7 @@
 		5E83C775C5391542BCDF2062 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83C17CD8AE8E9210818A1E /* PlayingCardDeck.m */; };
 		5E83C92A92B25F0775B6BEE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E83C00F43A6CCCB1538C903 /* CoreGraphics.framework */; };
 		5E83C936310E4017E051140A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83CE425DE6BB65A047540F /* Card.m */; };
+		5E83CC7B94BCF44648A3ADFF /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83C8F1E6AA76B4994FFF94 /* CardMatchingGame.m */; };
 		5E83CC999AE7DE7695285253 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83C62E9F1563EC6A2E3F54 /* Deck.m */; };
 		5E83CCA3C77800299B9F8B2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E83C027294C2250AD07EF5C /* Foundation.framework */; };
 		5E83CD799DC5A7BB1AB7AFE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E83C333AAB427E9A3CBB691 /* InfoPlist.strings */; };
@@ -45,6 +46,7 @@
 		5E2FDBB918301EE3001D8F68 /* CardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CardBack.png; sourceTree = "<group>"; };
 		5E2FDBBA18301EE3001D8F68 /* CardBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CardBack@2x.png"; sourceTree = "<group>"; };
 		5E83C00F43A6CCCB1538C903 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E83C0146B53886338D72E8C /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
 		5E83C027294C2250AD07EF5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E83C0C071098532FACD535F /* Cards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cards-Prefix.pch"; sourceTree = "<group>"; };
 		5E83C0E3D54A8135EEDB0BEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		5E83C772751BAF5171FC90BA /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		5E83C78F87EBAB7041C18D7E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E83C8526C71103CE17B4054 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E83C8F1E6AA76B4994FFF94 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 		5E83C9DBD8718EB5BAB5A394 /* CardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardsTests.m; sourceTree = "<group>"; };
 		5E83CA2CE7513547F153AFEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5E83CA7260322C6728B6FF74 /* CardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CardsTests-Info.plist"; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				5E83C543C8E8BD9CEC113A32 /* PlayingCard.h */,
 				5E83C17CD8AE8E9210818A1E /* PlayingCardDeck.m */,
 				5E83CB9702955444CC929198 /* PlayingCardDeck.h */,
+				5E83C8F1E6AA76B4994FFF94 /* CardMatchingGame.m */,
+				5E83C0146B53886338D72E8C /* CardMatchingGame.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 				5E83CC999AE7DE7695285253 /* Deck.m in Sources */,
 				5E83C20F603915EB19FD9C3A /* PlayingCard.m in Sources */,
 				5E83C775C5391542BCDF2062 /* PlayingCardDeck.m in Sources */,
+				5E83CC7B94BCF44648A3ADFF /* CardMatchingGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
