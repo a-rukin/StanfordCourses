@@ -17,6 +17,7 @@
 		5E83C69EBD364A46ED3892D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E83C32C4BA76867B27B0085 /* XCTest.framework */; };
 		5E83C92A92B25F0775B6BEE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E83C00F43A6CCCB1538C903 /* CoreGraphics.framework */; };
 		5E83C936310E4017E051140A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83CE425DE6BB65A047540F /* Card.m */; };
+		5E83CC999AE7DE7695285253 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83C62E9F1563EC6A2E3F54 /* Deck.m */; };
 		5E83CCA3C77800299B9F8B2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E83C027294C2250AD07EF5C /* Foundation.framework */; };
 		5E83CD799DC5A7BB1AB7AFE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E83C333AAB427E9A3CBB691 /* InfoPlist.strings */; };
 		5E83CE8E0604A4CEC4A9F65A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E83C11545D767A6F542B794 /* InfoPlist.strings */; };
@@ -44,7 +45,9 @@
 		5E83C4633F060C274AB984E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		5E83C48447D697F8739F4168 /* CardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E83C55CFFB043E4A9BA4A54 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E83C62E9F1563EC6A2E3F54 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		5E83C6BE4B595A6655E3229C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E83C772751BAF5171FC90BA /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		5E83C78F87EBAB7041C18D7E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E83C8526C71103CE17B4054 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E83C9DBD8718EB5BAB5A394 /* CardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardsTests.m; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				5E83C11518795C3C0B1FA8C4 /* ViewController.m */,
 				5E83CE425DE6BB65A047540F /* Card.m */,
 				5E83CCFD76698BE6FB85D23E /* Card.h */,
+				5E83C62E9F1563EC6A2E3F54 /* Deck.m */,
+				5E83C772751BAF5171FC90BA /* Deck.h */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 				5E83C5D3D7F8C6F761EE3F49 /* ViewController.m in Sources */,
 				5E83C0DBEC19DC4A4CBEAC4E /* AppDelegate.m in Sources */,
 				5E83C936310E4017E051140A /* Card.m in Sources */,
+				5E83CC999AE7DE7695285253 /* Deck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
