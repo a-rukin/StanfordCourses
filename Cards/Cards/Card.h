@@ -9,12 +9,12 @@
 @interface Card : NSObject
 
 
-@property (strong, nonatomic) NSString *contents;
+@property(strong, nonatomic) NSString *contents;
 
-@property (nonatomic, getter=isChecked) BOOL checked;
-@property (nonatomic, getter=isMatched) BOOL matched;
+@property(nonatomic, getter=isChecked) BOOL checked;
+@property(nonatomic, getter=isMatched) BOOL matched;
 
--(int)match:(Card *)card;
+- (int)match:(NSArray *)otherCards;
 
 
 @end
